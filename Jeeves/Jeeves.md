@@ -1,6 +1,6 @@
 # HTB Jeeves Overview
 
-[The Jeeves pwnbox](https://app.hackthebox.com/challenges/167) is an easy-rated retired Challenge. It features concepts of Binary Exploitation, Fuzzing, Buffer Overflow, and a basic understanding of python.
+[The Jeeves pwnbox](https://app.hackthebox.com/challenges/167) is an easy-rated retired Challenge. It features concepts of Binary Exploitation, Fuzzing, Buffer Overflow, and a basic understanding of python.  <br> Note: Write-ups are only for retired machines.
 
 I used [@PinkDraconian](https://github.com/PinkDraconian) and [@dannytzoc](https://github.com/dannytzoc) YouTube videos for inspiration to better understand binary exploitation and how to execute buffer overflow on this challenge. I highly suggest you give them a follow for more OffSec and HTB CTF content!
 
