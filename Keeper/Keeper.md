@@ -117,7 +117,7 @@ https://github.com/vdohney/keepass-password-dumper
 1. `dotnet`<br>
 ![image](https://github.com/user-attachments/assets/4cecb2e0-c4be-4187-9074-d265ed224783)
 
-**Troubleshooted dotnet not reading the file correctly:**
+**Troubleshooted dotnet not reading the file correctly:**<br>
 ![image](https://github.com/user-attachments/assets/bc227e15-6eb5-4224-bdb4-30d10d802bc1)
 
 <details>https://learn.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#scripted-install<br>
