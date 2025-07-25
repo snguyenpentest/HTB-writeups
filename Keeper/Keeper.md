@@ -1,4 +1,4 @@
-# HTB Keeper Overview
+ # HTB Keeper Overview
 ![image](https://github.com/user-attachments/assets/8db7882d-25e7-49b1-b6f8-02456dd997b4)
 
 [Keeper](https://app.hackthebox.com/machines/keeper) is an easy-difficulty Linux machine that features a support ticketing system that uses default credentials. Enumerating the service, we are able to see clear text credentials that lead to SSH access. With `SSH` access, we can gain access to a KeePass database dump file, which we can leverage to retrieve the master password. With access to the `Keepass` database, we can access the root `SSH` keys, which are used to gain a privileged shell on the host.
@@ -25,7 +25,8 @@ Port 80 (HTTP) The webserver is available by typing in the `10.10.11.227` onto t
 Add the `ip` and the `hostname` into our /etc/hosts file, so we can access the site using the domain name as well:<br>
 `echo "10.10.11.227 keeper.htb tickets.keeper.htb" | sudo tee -a /etc/hosts`   <br>
 
-Now we can access the site using the domain names: `keeper.htb` and `tickets.keeper.htb`<br>
+Now we can access the site using the domain names:<br>
+`keeper.htb` and `tickets.keeper.htb`<br>
 ![image](https://github.com/user-attachments/assets/864762ae-ac2b-4c2b-8acc-7e9d55425cb5)
 
 ## Service Identification
@@ -53,6 +54,7 @@ Find user + default password<br>
 ![image](https://github.com/user-attachments/assets/9fb07e2d-531a-493a-b976-ea85780c9f85)
 
 
+**We find the user.txt for the user flag as well as a RT30000.zip file**<br>
 `whoami`<br>
 `ls`<br>
 `cat user.txt`<br>
@@ -92,7 +94,7 @@ Unzip the file<br>
 `unzip RT30000.zip`<br>
 ![image](https://github.com/user-attachments/assets/218adeaa-c15d-4e25-8deb-b182054e813a)
 
-We found two files:
+We found two files:<br>
 **KeePassDumpFull.dmp** file<br>
 **passcodes.kdbx** (keepass database file)<br>
 
