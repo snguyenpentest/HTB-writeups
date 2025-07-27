@@ -11,4 +11,3 @@ My own personal journey with Hack the Box! A collection for my write-ups/walkthr
 
 ## Pwnboxes
 [Jeeves](https://github.com/snguyenpentest/HTB-writeups/blob/main/Jeeves/Jeeves.md) 
-
