@@ -65,7 +65,7 @@ Find user + default password<br>
 `650cbb7d7e90f981a8421d68cb7dcbc4`
 
 We found the first User flag by remote SSH into the target machine exploiting publicly known credentials.<br>
-**Solution:** As admin and users, always change the default credentials during setup and configurations to practice good cyber hygiene.<br>
+**Mitigation:** As admin and users, always change the default credentials during setup and configurations to practice good cyber hygiene.<br>
 An example would be on user account creation to require a password reset within a specific timeframe.
 
 ## Privilege Escalation
@@ -253,5 +253,5 @@ Now enter the command:<br>
 `518b434db7c3142f146ccc3e3011ef33`
 
 While the KeePass password had unique characters, we found the Root flag by remote SSH with authentication by exploiting a public CVE.<br>
-**Solution:** As admin, always keep machines/software patched to have access to the latest security updates.<br>
+**Mitigation:** As admin, always keep machines/software patched to have access to the latest security updates.<br>
 Other layers of security to consider would be to have honeypot accounts, files, and keep public/private keys in a separate database instead of all in one place.
